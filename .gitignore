@@ -23,3 +23,6 @@ Thumbs.db
 .cache/
 coverage/
 *.tsbuildinfo
+
+# APKs — GitHub يرفض الملفات >100MB؛ ضع الرابط الخارجي في VITE_APK_URL عند البناء
+public/apk/*.apk
